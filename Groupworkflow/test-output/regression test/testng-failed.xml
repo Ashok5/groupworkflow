@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression test]">
+  <test name="Logindex(failed)">
+    <classes>
+      <class name="com.rectrix.groupworkflow.logindex.Logindex">
+        <methods>
+          <include name="userLogin"/>
+          <include name="startWebApps"/>
+        </methods>
+      </class> <!-- com.rectrix.groupworkflow.logindex.Logindex -->
+    </classes>
+  </test> <!-- Logindex(failed) -->
+</suite> <!-- Failed suite [regression test] -->
